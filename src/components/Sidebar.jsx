@@ -1,11 +1,10 @@
-import React from "react"
 
 import { assets } from '../assets/assets'
 const Sidebar = () => {
   return (
     <div className='justify-around'>
 
-     <div className='bg-[#121212] h-[25%] rounded flex flex-col text-white justify-around w-[full]  p-2 flex-col lg:flex gap-2'>
+     <div className='bg-[#121212] h-[25%] rounded flex text-white justify-around w-[full]  p-2 flex-col lg:flex gap-2'>
     
       <div className='flex items-center gap-3 pl-8 cursor-pointer'>
         <img src={assets.home_icon} alt='' />

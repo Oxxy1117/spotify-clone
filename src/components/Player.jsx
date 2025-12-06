@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { assets, songsData} from '../assets/assets'
 
 const Player = () => {
